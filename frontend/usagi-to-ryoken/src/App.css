@@ -17,3 +17,11 @@
   font-size: 2rem;
   position: center;
 }
+
+.stageSelect {
+  margin-top: 1rem;
+}
+
+.stageSelectButton {
+  margin-top: 0rem;
+}
