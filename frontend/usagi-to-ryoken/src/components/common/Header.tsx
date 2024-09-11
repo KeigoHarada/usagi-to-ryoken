@@ -9,7 +9,7 @@ const GameHeader: React.FC = () => {
         <div>
             <AppBar position="static" className='header'
                 sx={{
-                    backgroundColor: 'transparent',
+                    backgroundColor: theme.palette.background.default, // テーマの背景色を使用
                     boxShadow: 'none',
                     position: 'relative',
                     height: isMobile ? '80px' : '120px',
@@ -29,7 +29,7 @@ const GameHeader: React.FC = () => {
                         component="h1"
                         sx={{
                             fontWeight: 'bold',
-                            color: 'white',
+                            color: theme.palette.primary.main, // テーマのプライマリカラーを使用
                             textShadow: '2px 2px 4px rgba(0,0,0,0.5)',
                         }}
                     >
@@ -38,7 +38,7 @@ const GameHeader: React.FC = () => {
                 </Toolbar>
                 <Box
                     component="img"
-                    src="../../../public/header2.png"
+                    src="../../../public/header2.png" // 画像のパスを確認
                     alt="ウサギvs猟犬"
                     sx={{
                         position: 'absolute',

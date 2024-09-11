@@ -6,7 +6,7 @@ export const theme = createTheme({
     },
     palette: {
         primary: {
-            main: '#f44336',
+            main: '#FFFFFF', // Set the primary color to white
         },
         background: {
             default: 'darkslategray',
