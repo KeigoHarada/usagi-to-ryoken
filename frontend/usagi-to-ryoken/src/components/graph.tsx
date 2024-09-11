@@ -94,8 +94,8 @@ const VisGraph: React.FC = () => {
                 }
             };
 
-            new Network(networkRef.current, data, options).fit();
-
+            const network = new Network(networkRef.current, data, options);
+            network.fit();
         }
     }, []);
 
@@ -104,7 +104,9 @@ const VisGraph: React.FC = () => {
             <div ref={networkRef} style={
                 {
                     width: '100%',
-                    height: '500px'
+                    height: 600,
+                    border: '1px solid #ccc',
+                    margin: 0
                 }
             } />
         </div>

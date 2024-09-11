@@ -7,8 +7,8 @@ const Content = () => {
         <div className="content">
             <Box
                 sx={{
-                    width: 1000,
-                    height: 600,
+                    width: "100%",
+                    height: 800,
                     border: '1px solid #ccc',
                     borderRadius: 2,
                     overflow: 'hidden',
